@@ -1,0 +1,36 @@
+body{
+  background-color:rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+ }
+ .contaner{
+             width: 300px;
+             height: 670px;
+             background-color: rgb(81, 61, 3);
+             color: rgb(255, 255, 255);
+             margin: -21px;        
+ }
+ .contaner .titulo img{
+             margin-left:  30px;
+             margin-top: 30px;
+             width: 260px;
+             
+ 
+ }
+ .contaner ul{
+             list-style-type: none;
+ }
+ .contaner ul li{
+             text-align: left;
+ }
+ .contaner ul li a{
+             text-decoration: none;
+             color: white;
+             padding: 20px;
+             display: block;
+             border: rgb(85, 161, 161);
+ }
+ .contaner ul li a:hover{
+             background-color: rgb(63, 23, 3);
+ 
+ }

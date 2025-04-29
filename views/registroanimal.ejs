@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>registro animal </title>
+            <link rel='stylesheet' href='/stylesheets/registro.css' />
+</head>
+<body>
+            <div class="contaner">
+                        <div class="titulo">
+                         <h1>REGISTRO</h1>
+                        </div>
+                         <form action="#" method="post"> 
+                                     <label for="date">FECHA DE NACIMIENTO</label>
+                                     <input type="date" id="date" name="date" required>
+                                     <label for="country">ORIGEN</label>
+                                    <select  id="country">
+                                                 <option value="vs">aragua</option>
+                                                 <option value="as">barinas</option>
+                                                 <option value="ps">portuguesa</option>
+                                                 <option value="hd">guarico</option>
+                                   </select>
+                                  
+                                              <label for="name">INDICADOR O ETIQUETA</label>
+                                             <input type="text" id="name" name="name" required>
+                                             <label for="weight">PESO</label>
+                                             <input type="number" id="weight" name="weight" min="1" max="500"><br><br>   
+                                              <label for="consumo">CONSUMO DE ALIMENTO</label>
+                                          <input type="text" id="consumo" name="consumo" required> 
+                                          <label for="salud">HISTORIAL DE SALUD  </label>
+                                               <input type="text" id="salud" name="salud" required>
+                                               <button type="submit">enviar</button>
+                        </form>
+                                  
+            </div>        
+</body>
+</html>
