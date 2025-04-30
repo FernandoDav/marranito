@@ -21,3 +21,8 @@ router.get('/identificador', (req, res) => {
 
 module.exports = router;
 
+
+
+
+//crud firebase
+
