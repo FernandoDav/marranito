@@ -1,6 +1,6 @@
 var admin = require("firebase-admin");
 
-var serviceAccount = require("./serviceAccountKey.json"); // Asegúrate de que la ruta sea correcta
+var serviceAccount = require("./serviceAcountKey"); // Asegúrate de que la ruta sea correcta
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
