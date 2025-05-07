@@ -14,15 +14,13 @@ router.get('/identificador', (req, res) => {
   res.render('identificador');
 });
 
+router.get('/login', (req, res) => {
+  res.render('login');
+});
 
 
 
 
 
 module.exports = router;
-
-
-
-
-//crud firebase
 
