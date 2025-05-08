@@ -18,6 +18,10 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
+router.get('/control', (req, res) => {
+  res.render('control')
+})
+
 
 
 

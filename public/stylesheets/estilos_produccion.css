@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 300px;
+    background-color: rgb(81, 61, 3);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 20px 0;
+    box-sizing: border-box;
+    float: left;
+    min-height: 100vh;
+}
+
+.container .titulo img {
+    margin-left: 30px;
+    margin-top: 0;
+    width: 240px;
+    display: block;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+    filter: drop-shadow(0 0 7px rgba(255, 255, 255, 0.7)); /* Iluminación blanca suave */
+}
+
+.container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container ul li {
+    text-align: left;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.container ul li a:hover {
+    background-color: rgb(63, 23, 3);
+}
+
+/* Estilos para el contenido principal */
+.main-content {
+    margin-left: 320px;
+    padding: 20px;
+}
+
+.main-content h1 {
+    color: rgb(81, 61, 3);
+}
+
+.production-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.production-card h2 {
+    margin-top: 0;
+    color: rgb(63, 23, 3);
+}
